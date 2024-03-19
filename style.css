@@ -1,0 +1,17 @@
+.container {
+    padding: 1px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* gap: 1px; */
+    background-color: rgb(157, 191, 216);
+}
+
+.square {
+    margin: 1px;
+    background-color: rgb(237, 237, 237);
+}
