@@ -1,5 +1,23 @@
+.header {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(244, 248, 250);
+    background-color: rgb(100, 135, 159);
+}
+
 .container {
-    padding: 1px;
+    padding: 2px;
     width: 400px;
     height: 400px;
     margin: auto;
@@ -7,11 +25,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* gap: 1px; */
-    background-color: rgb(157, 191, 216);
+    background-color: rgb(100, 135, 159);
 }
 
 .square {
-    margin: 1px;
+    margin: 0.5px;
     background-color: rgb(237, 237, 237);
+}
+
+.squareSelected {
+    background-color: rgb(155, 192, 227);
 }
